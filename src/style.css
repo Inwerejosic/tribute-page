@@ -1,0 +1,77 @@
+#main {
+    background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    margin: 10px;
+}
+
+#main-div {
+    text-align: center;
+    font-size: 25px;
+}
+
+#main-div p {
+    font-style: italic;
+    font-family: Cochin, Georgia, Times;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div {
+    background: white;
+    padding: 10px;
+    margin: 0;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+}
+
+blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+}
+
+blockquote cite {
+    font-weight: bold;
+}
+
+#tribute-info #headline {
+    text-align: center;
+}
+
+#tribute-info ul {
+    list-style: none;
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: rgb(64, 80, 153);
+}
+
+#tribute-link:hover {
+    color: brown;
+}
+
+#my-tribute-foot ul li {
+    list-style: none;
+    text-align: center;
+}
+
+#my-tribute-foot ul li a {
+    text-decoration: none;
+}
+
+@media (max-width: 460px) {
+    h1 {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+}
